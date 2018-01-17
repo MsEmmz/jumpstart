@@ -1,0 +1,46 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Monoton', cursive;*/
+
+/*Universal Styles*/
+html {
+  font-size: 14px;
+
+}
+
+body {
+  margin: 0; /*for fixed header*/
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+/*Navigation*/
+.navbar-default .navbar-nav .active a {
+    color: #399bd1;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
