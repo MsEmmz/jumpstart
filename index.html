@@ -2,14 +2,21 @@
 <html>
   <head>
     <title>Jumpstart</title>
-    <link rel='stylesheet' type='text/css' href='resources/css/reset.css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
-    <link rel='stylesheet' type='text/css' href='resources/css/style.css'>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <link rel='stylesheet' type='text/css' href='resources/css/reset.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel='stylesheet' type='text/css' href='resources/css/style.css'>
+
+
+
   </head>
+
   <body>
     <!--TOP NAVIGATION BAR-->
     <nav class="navbar navbar-default navbar-fixed-top" >
@@ -23,19 +30,50 @@
       </div><!--close Container-fluid div-->
     </nav>
     <!--JUMBOTRON-->
+  <div class="carousel">
     <div class ="jumbotron jumbotron-bike">
-
         <div class="container-fluid text-center">
           <div class = "jumbotron-text">
-            <h1>Get Going.</h1>
+            <h1>GET GOING.</h1>
             <h3>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators
             and get rewards.</h3>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a></p>
           </div><!--close jumbotron-text div-->
         </div><!--close container-fluid div-->
     </div><!--close jumbotron jumbotron-bike div-->
 
-<!--FEATURED PROJECT-->
+    <div class ="jumbotron jumbotron-beer">
+        <div class="container-fluid text-center">
+          <div class = "jumbotron-text">
+            <h1>GET THINKING.</h1>
+            <h3>Meet like-minded individuals who will help fuel your creative juices.</h3>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a></p>
+          </div><!--close jumbotron-text div-->
+        </div><!--close container-fluid div-->
+    </div><!--close jumbotron jumbotron-bike div-->
+
+    <div class ="jumbotron jumbotron-flowers">
+        <div class="container-fluid text-center">
+          <div class = "jumbotron-text">
+            <h1>GET CREATING.</h1>
+            <h3>Stop overthinking projects and begin putting them out into the world.</h3>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a></p>
+          </div><!--close jumbotron-text div-->
+        </div><!--close container-fluid div-->
+    </div><!--close jumbotron jumbotron-bike div-->
+
+    <div class ="jumbotron jumbotron-duffel">
+        <div class="container-fluid text-center">
+          <div class = "jumbotron-text">
+            <h1>GET STARTED.</h1>
+            <h3>What are you waiting for? Today's the day for your next big idea.</h3>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Jump In</a></p>
+          </div><!--close jumbotron-text div-->
+        </div><!--close container-fluid div-->
+    </div><!--close jumbotron jumbotron-bike div-->
+  </div><!--close carousel div-->
+
+  <!--FEATURED PROJECT-->
      <div class = "container featured-project">
        <div class = "row">
          <h2 class="col-xs-12">Featured Project </h2>
@@ -80,53 +118,57 @@
      </div><!--close container div-->
 
      <!--PROJECTS-->
-     <div class = "container project">
-       <div class = "row">
-         <h2 class="col-xs-12">Projects</h2>
-        <div class = "row"><!--image row-->
-           <div class = "col-md-4 col-sm-12">
-             <div class = "image-container">
-               <a href="#">
-                <img src = "resources/images/project1.png"></a>
-             </div><!--close image-container div-->
+     <div class="container">
+         <div class="row">
+           <h2 class="col-xs-12">Projects</h2>
+         </div>
+         <div class="row">
+           <div class="col-xs-12 col-sm-4 project">
+             <div class="image-container">
+               <a href="#"><img src="resources/images/project1.png"></a>
+             </div>
              <h3>The Right Tights</h3>
-             <p>by Riley Mae </p>
-             <p> These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more laddes!). Made
-             with hight quality, completely toxic-free materials. Custom colors available to all backers.</p>
-           </div><!--close col div-->
-
-           <div class = "col-md-4 col-sm-12">
-             <div class = "image-container">
-               <a href="#">
-                <img src = "resources/images/project2.png"></a>
-             </div><!--close image-container div-->
+             <p>by Riley Mae</p>
+             <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+           </div>
+           <div class="col-xs-12 col-sm-4 project">
+             <div class="image-container">
+               <a href="#"><img src="resources/images/project2.png"></a>
+             </div>
              <h3>Peppermint Smart Home</h3>
-             <p>by Brian McDonald </p>
-             <p>Instandly upgrade your home with technology that keeps your family and home safe. We've made Peppermint
-             easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
-           </div><!--close col div-->
-
-           <div class = "col-md-4 col-sm-12">
-             <div class = "image-container">
-               <a href="#">
-                <img src = "resources/images/project3.png"></a>
-             </div><!--close image-container div-->
-             <h3>Americal Streetlife</h3>
-             <p>by Patrick Wallace </p>
-             <p> I've been travelling around the United States for the past two years. I've slept on hundreds of couches,
-             more than a few benches, and captured my experiences in this 120 page photo album.</p>
-           </div><!--close col div-->
-         </div><!--close row - images div-->
+             <p>by Brian McDonald</p>
+             <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
+           </div>
+           <div class="col-xs-12 col-sm-4 project">
+             <div class="image-container">
+               <a href="#"><img src="resources/images/project3.png"></a>
+             </div>
+             <h3>American Streetlife</h3>
+             <p>by Patrick Wallace</p>
+             <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
+           </div>
+         </div>
+       </div>-
 
 
 
 
+<!--HELP SECTION-->
 
-      </div><!--close container div-->
+    <div class="container-fluid help">
+      <strong>Having trouble thinking of an idea?</strong>
+      <p>Inventor's block strikes at the worst times. But that's all changed with Jumpstart's Good Idea Generator
+       Lite (GiGLi).</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div><!--close container-fluid help div-->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   
-    crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
-    <script src="java/main.js"></script>
+<!--JAVASCRIPT-->
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<script type="text/javascript" src="resources/java/main.js"></script>
   </body>
 </html>
