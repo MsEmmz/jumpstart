@@ -2,7 +2,6 @@
 /*Universal Styles*/
 html {
   font-size: 14px;
-
 }
 
 body {
@@ -42,8 +41,6 @@ h3 {
   overflow: hidden;
 }
 
-
-
 @media only screen and (max-width: 768px) {
   .container {
     margin: 20px;
@@ -64,8 +61,6 @@ h3 {
     font-weight: bold;
     font-size: 1.1rem;
 }
-
-
 
 /*Jumbotron*/
 
@@ -140,6 +135,9 @@ h3 {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.featured-project image-container {
+  height: 19rem;
+}
 /*Projects*/
 
 .project {
@@ -148,6 +146,10 @@ h3 {
 
 .project .image-container {
   height: 15rem;
+  overflow: hidden;
+}
+
+.image-container {
   overflow: hidden;
 }
 

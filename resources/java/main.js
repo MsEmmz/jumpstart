@@ -10,4 +10,12 @@ $(document).ready(function(){
   });
 
 
+     var a = $(".service");
+     a.click(function()
+     {
+
+         return false;
+
+     });
+  });
 });
