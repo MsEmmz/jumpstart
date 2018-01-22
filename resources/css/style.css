@@ -26,9 +26,8 @@ h3 {
 }
 
 .image-container img {
-  width: 100%;
   opacity: 0.7;
-  margin-top: 1.4rem;
+
   transition: transform .5s, opacity .5s;
 }
 
@@ -39,6 +38,11 @@ h3 {
 
 .image-container {
   overflow: hidden;
+
+}
+
+img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -125,7 +129,6 @@ h3 {
 
 /*Featured Project*/
 
-
 .categories h3 {
   color: #399bd1;
 }
@@ -135,8 +138,9 @@ h3 {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.featured-project image-container {
-  height: 19rem;
+.featured-project .image-container {
+  height: 23rem;
+  margin-top: 20px;
 }
 /*Projects*/
 
@@ -149,9 +153,6 @@ h3 {
   overflow: hidden;
 }
 
-.image-container {
-  overflow: hidden;
-}
 
 @media only screen and (max-width: 768px) {
   .project {
