@@ -142,6 +142,12 @@ img {
   height: 23rem;
   margin-top: 20px;
 }
+@media only screen and (max-width: 768px) {
+  .featured-project .col-xs-12 {
+    margin-top: 0;
+  }
+}
+
 /*Projects*/
 
 .project {
